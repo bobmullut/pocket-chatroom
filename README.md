@@ -25,7 +25,7 @@ This project adapts that idea into a local captive-portal chatroom with:
 
 ## Setup
 
-### 1. Install Arduino IDE
+#### 1. Install Arduino IDE
 
 Download and install the Arduino IDE:
 
@@ -33,28 +33,29 @@ Download and install the Arduino IDE:
 
 ---
 
-### 2. Add ESP8266 board support
+#### 2. Add ESP8266 board support
 
-1. Open:
+Open:
 
 `Arduino IDE → Preferences… → Additional Boards Manager URLs`
 
-2. Add the following URL:
+Add the following URL:
 
 ```text
 https://arduino.esp8266.com/stable/package_esp8266com_index.json
 ```
 
-3. Click **OK**.
+Click **OK**.
 
 ---
 
-### 3. Install the ESP8266 board package
+#### 3. Install the ESP8266 board package
 
-1. Open **Boards Manager** (⌘ + ⇧ + B)
-2. Search for: `esp8266`
+Open **Boards Manager** (⌘ + ⇧ + B)
 
-3. Install:
+Search for: `esp8266`
+
+Install:
 
 ```text
 esp8266 by ESP8266 Community
@@ -62,29 +63,29 @@ esp8266 by ESP8266 Community
 
 ---
 
-### 4. Install the LittleFS uploader plugin
+#### 4. Install the LittleFS uploader plugin
 
-1. Download the latest `.vsix` release of:
+Download the latest `.vsix` release of:
 
 [arduino-littlefs-upload releases](https://github.com/earlephilhower/arduino-littlefs-upload/releases/latest)
 
-2. Create the plugin directory if it does not already exist:
+Create the plugin directory if it does not already exist:
 
 ```bash
 mkdir -p ~/.arduinoIDE/plugins
 ```
 
-3. Copy the downloaded `.vsix` file into:
+Copy the downloaded `.vsix` file into:
 
 ```text
 ~/.arduinoIDE/plugins/
 ```
 
-4. Then completely restart the Arduino IDE.
+Then completely restart the Arduino IDE.
 
 ---
 
-### 5. Clone this repository
+#### 5. Clone this repository
 
 ```bash
 git clone https://github.com/z-spondoms/pocket-chatroom.git
@@ -100,7 +101,7 @@ in the Arduino IDE.
 
 ---
 
-### 6. Select the correct board
+#### 6. Select the correct board
 
 Go to:
 
@@ -114,7 +115,7 @@ LOLIN(WEMOS) D1 R2 & mini
 
 ---
 
-### 7. Connect the board
+#### 7. Connect the board
 
 Connect your board to your computer with a USB cable.
 
@@ -124,23 +125,23 @@ Then select the correct serial port:
 
 ---
 
-### 8. Upload the LittleFS filesystem
+#### 8. Upload the LittleFS filesystem
 
-1. Press: **⌘ + ⇧ + P**
+Press: **⌘ + ⇧ + P**
 
-2. Search for: `Upload LittleFS to Pico/ESP8266/ESP32`
+Search for: `Upload LittleFS to Pico/ESP8266/ESP32`
 
-3. Run the command and wait until the upload is finished.
+Run the command and wait until the upload is finished.
 
 ---
 
-### 9. Upload the sketch
+#### 9. Upload the sketch
 
 Upload the sketch normally using the Arduino IDE upload button (arrow button).
 
 ---
 
-### 10. Connect to Pocket Chatroom
+#### 10. Connect to Pocket Chatroom
 
 Connect your phone or laptop to the Wi-Fi network:
 
