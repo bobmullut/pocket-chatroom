@@ -136,17 +136,12 @@ h1 {
   gap: 12px;
 }
 
-.messages:last-child {
-  margin-bottom: 4px;
-}
-
 .composer-divider {
-    position: relative;
-    height: 3px;
-    background: var(--line);
-    margin: 25px 0;
+  position: relative;
+  height: 3px;
+  background: var(--line);
+  margin: 25px 0;
 }
-
 
 .message {
   padding: 14px 14px 12px;
@@ -154,6 +149,10 @@ h1 {
   border: 2px solid var(--line);
   border-radius: var(--radius);
   box-shadow: var(--shadow-small);
+}
+
+.message:last-child {
+  margin-bottom: 4px;
 }
 
 .message.self {
