@@ -91,7 +91,7 @@ Then completely restart the Arduino IDE.
 #### 5. Clone this repository
 
 ```bash
-git clone https://github.com/z-spondoms/pocket-chatroom.git
+git clone https://github.com/bobmullut/pocket-chatroom.git
 ```
 
 Open:
