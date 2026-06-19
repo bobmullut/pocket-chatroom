@@ -51,6 +51,7 @@ textarea {
   width: min(100%, 880px);
   margin: 0 auto;
   display: grid;
+  gap: 18px;
 }
 
 .hero-card,
@@ -266,6 +267,30 @@ button:active {
 button:disabled {
   opacity: 0.7;
   cursor: progress;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: var(--yellow);
+  border: 3px solid var(--line);
+  box-shadow: var(--shadow-small);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.github-mark {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+  flex-shrink: 0;
 }
 
 @media (max-width: 760px) {
